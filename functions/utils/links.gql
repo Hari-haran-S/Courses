@@ -1,0 +1,11 @@
+type Course {
+  name: String!
+  description: String!
+  author: String!
+  price: String!
+  image: String!
+}
+
+type Query {
+  allCourses: [Course!]!
+}
